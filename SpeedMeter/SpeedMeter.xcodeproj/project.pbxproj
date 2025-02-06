@@ -16,7 +16,6 @@
 		CAD423B82D552BB0008BCB3B /* SpeedMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423B72D552BB0008BCB3B /* SpeedMeterUITests.swift */; };
 		CAD423BA2D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423B92D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift */; };
 		CAD423C72D552C75008BCB3B /* GetSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423C62D552C75008BCB3B /* GetSpeed.swift */; };
-		CAD423CA2D55322D008BCB3B /* AWSAPIGateway in Frameworks */ = {isa = PBXBuildFile; productRef = CAD423C92D55322D008BCB3B /* AWSAPIGateway */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAD423CA2D55322D008BCB3B /* AWSAPIGateway in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,7 +158,6 @@
 			);
 			name = SpeedMeter;
 			packageProductDependencies = (
-				CAD423C92D55322D008BCB3B /* AWSAPIGateway */,
 			);
 			productName = SpeedMeter;
 			productReference = CAD423972D552BAE008BCB3B /* SpeedMeter.app */;
@@ -235,7 +232,6 @@
 			);
 			mainGroup = CAD4238E2D552BAE008BCB3B;
 			packageReferences = (
-				CAD423C82D55322D008BCB3B /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
 			);
 			productRefGroup = CAD423982D552BAE008BCB3B /* Products */;
 			projectDirPath = "";
@@ -612,25 +608,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		CAD423C82D55322D008BCB3B /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/awslabs/aws-sdk-swift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.12;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		CAD423C92D55322D008BCB3B /* AWSAPIGateway */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = CAD423C82D55322D008BCB3B /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
-			productName = AWSAPIGateway;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CAD4238F2D552BAE008BCB3B /* Project object */;
 }

@@ -5,7 +5,6 @@
 //  Created by 川渕悟郎 on 2025/02/07.
 //
 import Foundation
-import AWSAPIGateway
 import Alamofire
 
 class SpeedMonitor {
