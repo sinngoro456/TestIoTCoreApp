@@ -1,0 +1,25 @@
+PODS:
+  - AWSAPIGateway (2.4.16):
+    - AWSCore (= 2.4.16)
+  - AWSCore (2.4.16)
+  - AWSDynamoDB (2.4.16):
+    - AWSCore (= 2.4.16)
+
+DEPENDENCIES:
+  - AWSAPIGateway (~> 2.4.7)
+  - AWSDynamoDB
+
+SPEC REPOS:
+  trunk:
+    - AWSAPIGateway
+    - AWSCore
+    - AWSDynamoDB
+
+SPEC CHECKSUMS:
+  AWSAPIGateway: 49d48577724a9f53eda1e8c53411c1f1ebac3b7b
+  AWSCore: 7c3c129991e6387bcbad7132bc3661e7135754db
+  AWSDynamoDB: e6fc88dca72b2efee4492729d96ed945b9f3a224
+
+PODFILE CHECKSUM: b52da3c045725884559ac32cc40dcc9ba28b8930
+
+COCOAPODS: 1.16.2

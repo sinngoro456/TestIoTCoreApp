@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		235ADE55483CABAF330AFFF0 /* Pods_SpeedMeter_SpeedMeterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1526CA33F982907D7F67D924 /* Pods_SpeedMeter_SpeedMeterUITests.framework */; };
+		B3C1C71CDF327413AA35F939 /* Pods_SpeedMeterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8087DE846D5801B3F68CE33D /* Pods_SpeedMeterTests.framework */; };
+		CAD4239B2D552BAE008BCB3B /* SpeedMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4239A2D552BAE008BCB3B /* SpeedMeterApp.swift */; };
+		CAD4239D2D552BAE008BCB3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4239C2D552BAE008BCB3B /* ContentView.swift */; };
+		CAD4239F2D552BAE008BCB3B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4239E2D552BAE008BCB3B /* Item.swift */; };
+		CAD423A12D552BB0008BCB3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD423A02D552BB0008BCB3B /* Assets.xcassets */; };
+		CAD423A42D552BB0008BCB3B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAD423A32D552BB0008BCB3B /* Preview Assets.xcassets */; };
+		CAD423AE2D552BB0008BCB3B /* SpeedMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423AD2D552BB0008BCB3B /* SpeedMeterTests.swift */; };
+		CAD423B82D552BB0008BCB3B /* SpeedMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423B72D552BB0008BCB3B /* SpeedMeterUITests.swift */; };
+		CAD423BA2D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423B92D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift */; };
+		CAD423C72D552C75008BCB3B /* GetSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423C62D552C75008BCB3B /* GetSpeed.swift */; };
+		E97379E80CF1907673647B7B /* Pods_SpeedMeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13D91EC44B64C052AE71D45 /* Pods_SpeedMeter.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAD423AA2D552BB0008BCB3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD4238F2D552BAE008BCB3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD423962D552BAE008BCB3B;
+			remoteInfo = SpeedMeter;
+		};
+		CAD423B42D552BB0008BCB3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAD4238F2D552BAE008BCB3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAD423962D552BAE008BCB3B;
+			remoteInfo = SpeedMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1526CA33F982907D7F67D924 /* Pods_SpeedMeter_SpeedMeterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMeter_SpeedMeterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B9EC2DF83A8E03AE031001 /* Pods-SpeedMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMeter/Pods-SpeedMeter.debug.xcconfig"; sourceTree = "<group>"; };
+		2C99F2CEA013D2C6504EFF8E /* Pods-SpeedMeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeterTests.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA9A43CB60A1D30BA9911ED /* Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig"; path = "Target Support Files/Pods-SpeedMeter-SpeedMeterUITests/Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62BAD5A66F4EF54F669A21DF /* Pods-SpeedMeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeterTests.release.xcconfig"; path = "Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests.release.xcconfig"; sourceTree = "<group>"; };
+		660437C47580D294A7CF10E6 /* Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMeter-SpeedMeterUITests/Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8087DE846D5801B3F68CE33D /* Pods_SpeedMeterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMeterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD423972D552BAE008BCB3B /* SpeedMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD4239A2D552BAE008BCB3B /* SpeedMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterApp.swift; sourceTree = "<group>"; };
+		CAD4239C2D552BAE008BCB3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAD4239E2D552BAE008BCB3B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CAD423A02D552BB0008BCB3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAD423A32D552BB0008BCB3B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAD423A92D552BB0008BCB3B /* SpeedMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD423AD2D552BB0008BCB3B /* SpeedMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterTests.swift; sourceTree = "<group>"; };
+		CAD423B32D552BB0008BCB3B /* SpeedMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAD423B72D552BB0008BCB3B /* SpeedMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterUITests.swift; sourceTree = "<group>"; };
+		CAD423B92D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAD423C62D552C75008BCB3B /* GetSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSpeed.swift; sourceTree = "<group>"; };
+		E13D91EC44B64C052AE71D45 /* Pods_SpeedMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC88A86E61C99C3223A26ECE /* Pods-SpeedMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter.release.xcconfig"; path = "Target Support Files/Pods-SpeedMeter/Pods-SpeedMeter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAD423942D552BAE008BCB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97379E80CF1907673647B7B /* Pods_SpeedMeter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD423A62D552BB0008BCB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C1C71CDF327413AA35F939 /* Pods_SpeedMeterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD423B02D552BB0008BCB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				235ADE55483CABAF330AFFF0 /* Pods_SpeedMeter_SpeedMeterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B97581251916BD62720372A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17B9EC2DF83A8E03AE031001 /* Pods-SpeedMeter.debug.xcconfig */,
+				FC88A86E61C99C3223A26ECE /* Pods-SpeedMeter.release.xcconfig */,
+				660437C47580D294A7CF10E6 /* Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig */,
+				2FA9A43CB60A1D30BA9911ED /* Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig */,
+				2C99F2CEA013D2C6504EFF8E /* Pods-SpeedMeterTests.debug.xcconfig */,
+				62BAD5A66F4EF54F669A21DF /* Pods-SpeedMeterTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CAD4238E2D552BAE008BCB3B = {
+			isa = PBXGroup;
+			children = (
+				CAD423992D552BAE008BCB3B /* SpeedMeter */,
+				CAD423AC2D552BB0008BCB3B /* SpeedMeterTests */,
+				CAD423B62D552BB0008BCB3B /* SpeedMeterUITests */,
+				CAD423982D552BAE008BCB3B /* Products */,
+				7B97581251916BD62720372A /* Pods */,
+				ED78B6B88827A8A47AACEEBA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAD423982D552BAE008BCB3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD423972D552BAE008BCB3B /* SpeedMeter.app */,
+				CAD423A92D552BB0008BCB3B /* SpeedMeterTests.xctest */,
+				CAD423B32D552BB0008BCB3B /* SpeedMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAD423992D552BAE008BCB3B /* SpeedMeter */ = {
+			isa = PBXGroup;
+			children = (
+				CAD4239A2D552BAE008BCB3B /* SpeedMeterApp.swift */,
+				CAD4239C2D552BAE008BCB3B /* ContentView.swift */,
+				CAD4239E2D552BAE008BCB3B /* Item.swift */,
+				CAD423C62D552C75008BCB3B /* GetSpeed.swift */,
+				CAD423A02D552BB0008BCB3B /* Assets.xcassets */,
+				CAD423A22D552BB0008BCB3B /* Preview Content */,
+			);
+			path = SpeedMeter;
+			sourceTree = "<group>";
+		};
+		CAD423A22D552BB0008BCB3B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CAD423A32D552BB0008BCB3B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAD423AC2D552BB0008BCB3B /* SpeedMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD423AD2D552BB0008BCB3B /* SpeedMeterTests.swift */,
+			);
+			path = SpeedMeterTests;
+			sourceTree = "<group>";
+		};
+		CAD423B62D552BB0008BCB3B /* SpeedMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAD423B72D552BB0008BCB3B /* SpeedMeterUITests.swift */,
+				CAD423B92D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift */,
+			);
+			path = SpeedMeterUITests;
+			sourceTree = "<group>";
+		};
+		ED78B6B88827A8A47AACEEBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E13D91EC44B64C052AE71D45 /* Pods_SpeedMeter.framework */,
+				1526CA33F982907D7F67D924 /* Pods_SpeedMeter_SpeedMeterUITests.framework */,
+				8087DE846D5801B3F68CE33D /* Pods_SpeedMeterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAD423962D552BAE008BCB3B /* SpeedMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD423BD2D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeter" */;
+			buildPhases = (
+				24F06DD2044F3AB3A76A172A /* [CP] Check Pods Manifest.lock */,
+				CAD423932D552BAE008BCB3B /* Sources */,
+				CAD423942D552BAE008BCB3B /* Frameworks */,
+				CAD423952D552BAE008BCB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedMeter;
+			productName = SpeedMeter;
+			productReference = CAD423972D552BAE008BCB3B /* SpeedMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAD423A82D552BB0008BCB3B /* SpeedMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD423C02D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeterTests" */;
+			buildPhases = (
+				FE48451D6A7486CB278CDC36 /* [CP] Check Pods Manifest.lock */,
+				CAD423A52D552BB0008BCB3B /* Sources */,
+				CAD423A62D552BB0008BCB3B /* Frameworks */,
+				CAD423A72D552BB0008BCB3B /* Resources */,
+				7ECC12C406562DD6CC3DF08C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD423AB2D552BB0008BCB3B /* PBXTargetDependency */,
+			);
+			name = SpeedMeterTests;
+			productName = SpeedMeterTests;
+			productReference = CAD423A92D552BB0008BCB3B /* SpeedMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAD423B22D552BB0008BCB3B /* SpeedMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAD423C32D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeterUITests" */;
+			buildPhases = (
+				1CDC4BB23BD29E46EC7C520B /* [CP] Check Pods Manifest.lock */,
+				CAD423AF2D552BB0008BCB3B /* Sources */,
+				CAD423B02D552BB0008BCB3B /* Frameworks */,
+				CAD423B12D552BB0008BCB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAD423B52D552BB0008BCB3B /* PBXTargetDependency */,
+			);
+			name = SpeedMeterUITests;
+			productName = SpeedMeterUITests;
+			productReference = CAD423B32D552BB0008BCB3B /* SpeedMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAD4238F2D552BAE008BCB3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CAD423962D552BAE008BCB3B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CAD423A82D552BB0008BCB3B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CAD423962D552BAE008BCB3B;
+					};
+					CAD423B22D552BB0008BCB3B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CAD423962D552BAE008BCB3B;
+					};
+				};
+			};
+			buildConfigurationList = CAD423922D552BAE008BCB3B /* Build configuration list for PBXProject "SpeedMeter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAD4238E2D552BAE008BCB3B;
+			productRefGroup = CAD423982D552BAE008BCB3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAD423962D552BAE008BCB3B /* SpeedMeter */,
+				CAD423A82D552BB0008BCB3B /* SpeedMeterTests */,
+				CAD423B22D552BB0008BCB3B /* SpeedMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAD423952D552BAE008BCB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD423A42D552BB0008BCB3B /* Preview Assets.xcassets in Resources */,
+				CAD423A12D552BB0008BCB3B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD423A72D552BB0008BCB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD423B12D552BB0008BCB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CDC4BB23BD29E46EC7C520B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedMeter-SpeedMeterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24F06DD2044F3AB3A76A172A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedMeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ECC12C406562DD6CC3DF08C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE48451D6A7486CB278CDC36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedMeterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAD423932D552BAE008BCB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD4239D2D552BAE008BCB3B /* ContentView.swift in Sources */,
+				CAD4239F2D552BAE008BCB3B /* Item.swift in Sources */,
+				CAD423C72D552C75008BCB3B /* GetSpeed.swift in Sources */,
+				CAD4239B2D552BAE008BCB3B /* SpeedMeterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD423A52D552BB0008BCB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD423AE2D552BB0008BCB3B /* SpeedMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAD423AF2D552BB0008BCB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD423BA2D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift in Sources */,
+				CAD423B82D552BB0008BCB3B /* SpeedMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAD423AB2D552BB0008BCB3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD423962D552BAE008BCB3B /* SpeedMeter */;
+			targetProxy = CAD423AA2D552BB0008BCB3B /* PBXContainerItemProxy */;
+		};
+		CAD423B52D552BB0008BCB3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAD423962D552BAE008BCB3B /* SpeedMeter */;
+			targetProxy = CAD423B42D552BB0008BCB3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CAD423BB2D552BB0008BCB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAD423BC2D552BB0008BCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAD423BE2D552BB0008BCB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17B9EC2DF83A8E03AE031001 /* Pods-SpeedMeter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = MM3VK68663;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinngoro456.SpeedMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAD423BF2D552BB0008BCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC88A86E61C99C3223A26ECE /* Pods-SpeedMeter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedMeter/Preview Content\"";
+				DEVELOPMENT_TEAM = MM3VK68663;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinngoro456.SpeedMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAD423C12D552BB0008BCB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C99F2CEA013D2C6504EFF8E /* Pods-SpeedMeterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM3VK68663;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinngoro456.SpeedMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedMeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedMeter";
+			};
+			name = Debug;
+		};
+		CAD423C22D552BB0008BCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62BAD5A66F4EF54F669A21DF /* Pods-SpeedMeterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM3VK68663;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinngoro456.SpeedMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedMeter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedMeter";
+			};
+			name = Release;
+		};
+		CAD423C42D552BB0008BCB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660437C47580D294A7CF10E6 /* Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM3VK68663;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinngoro456.SpeedMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedMeter;
+			};
+			name = Debug;
+		};
+		CAD423C52D552BB0008BCB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA9A43CB60A1D30BA9911ED /* Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MM3VK68663;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sinngoro456.SpeedMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedMeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAD423922D552BAE008BCB3B /* Build configuration list for PBXProject "SpeedMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD423BB2D552BB0008BCB3B /* Debug */,
+				CAD423BC2D552BB0008BCB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD423BD2D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD423BE2D552BB0008BCB3B /* Debug */,
+				CAD423BF2D552BB0008BCB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD423C02D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD423C12D552BB0008BCB3B /* Debug */,
+				CAD423C22D552BB0008BCB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAD423C32D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAD423C42D552BB0008BCB3B /* Debug */,
+				CAD423C52D552BB0008BCB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAD4238F2D552BAE008BCB3B /* Project object */;
+}
