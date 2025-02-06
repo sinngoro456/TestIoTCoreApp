@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		235ADE55483CABAF330AFFF0 /* Pods_SpeedMeter_SpeedMeterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1526CA33F982907D7F67D924 /* Pods_SpeedMeter_SpeedMeterUITests.framework */; };
-		B3C1C71CDF327413AA35F939 /* Pods_SpeedMeterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8087DE846D5801B3F68CE33D /* Pods_SpeedMeterTests.framework */; };
 		CAD4239B2D552BAE008BCB3B /* SpeedMeterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4239A2D552BAE008BCB3B /* SpeedMeterApp.swift */; };
 		CAD4239D2D552BAE008BCB3B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4239C2D552BAE008BCB3B /* ContentView.swift */; };
 		CAD4239F2D552BAE008BCB3B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD4239E2D552BAE008BCB3B /* Item.swift */; };
@@ -18,7 +16,7 @@
 		CAD423B82D552BB0008BCB3B /* SpeedMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423B72D552BB0008BCB3B /* SpeedMeterUITests.swift */; };
 		CAD423BA2D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423B92D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift */; };
 		CAD423C72D552C75008BCB3B /* GetSpeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD423C62D552C75008BCB3B /* GetSpeed.swift */; };
-		E97379E80CF1907673647B7B /* Pods_SpeedMeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E13D91EC44B64C052AE71D45 /* Pods_SpeedMeter.framework */; };
+		CAD423CA2D55322D008BCB3B /* AWSAPIGateway in Frameworks */ = {isa = PBXBuildFile; productRef = CAD423C92D55322D008BCB3B /* AWSAPIGateway */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +37,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1526CA33F982907D7F67D924 /* Pods_SpeedMeter_SpeedMeterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMeter_SpeedMeterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17B9EC2DF83A8E03AE031001 /* Pods-SpeedMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMeter/Pods-SpeedMeter.debug.xcconfig"; sourceTree = "<group>"; };
-		2C99F2CEA013D2C6504EFF8E /* Pods-SpeedMeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeterTests.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2FA9A43CB60A1D30BA9911ED /* Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig"; path = "Target Support Files/Pods-SpeedMeter-SpeedMeterUITests/Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig"; sourceTree = "<group>"; };
-		62BAD5A66F4EF54F669A21DF /* Pods-SpeedMeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeterTests.release.xcconfig"; path = "Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests.release.xcconfig"; sourceTree = "<group>"; };
-		660437C47580D294A7CF10E6 /* Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMeter-SpeedMeterUITests/Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		8087DE846D5801B3F68CE33D /* Pods_SpeedMeterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMeterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD423972D552BAE008BCB3B /* SpeedMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAD4239A2D552BAE008BCB3B /* SpeedMeterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterApp.swift; sourceTree = "<group>"; };
 		CAD4239C2D552BAE008BCB3B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,8 +49,6 @@
 		CAD423B72D552BB0008BCB3B /* SpeedMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterUITests.swift; sourceTree = "<group>"; };
 		CAD423B92D552BB0008BCB3B /* SpeedMeterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMeterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CAD423C62D552C75008BCB3B /* GetSpeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSpeed.swift; sourceTree = "<group>"; };
-		E13D91EC44B64C052AE71D45 /* Pods_SpeedMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC88A86E61C99C3223A26ECE /* Pods-SpeedMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMeter.release.xcconfig"; path = "Target Support Files/Pods-SpeedMeter/Pods-SpeedMeter.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E97379E80CF1907673647B7B /* Pods_SpeedMeter.framework in Frameworks */,
+				CAD423CA2D55322D008BCB3B /* AWSAPIGateway in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C1C71CDF327413AA35F939 /* Pods_SpeedMeterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235ADE55483CABAF330AFFF0 /* Pods_SpeedMeter_SpeedMeterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,14 +80,7 @@
 		7B97581251916BD62720372A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17B9EC2DF83A8E03AE031001 /* Pods-SpeedMeter.debug.xcconfig */,
-				FC88A86E61C99C3223A26ECE /* Pods-SpeedMeter.release.xcconfig */,
-				660437C47580D294A7CF10E6 /* Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig */,
-				2FA9A43CB60A1D30BA9911ED /* Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig */,
-				2C99F2CEA013D2C6504EFF8E /* Pods-SpeedMeterTests.debug.xcconfig */,
-				62BAD5A66F4EF54F669A21DF /* Pods-SpeedMeterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,7 +92,6 @@
 				CAD423B62D552BB0008BCB3B /* SpeedMeterUITests */,
 				CAD423982D552BAE008BCB3B /* Products */,
 				7B97581251916BD62720372A /* Pods */,
-				ED78B6B88827A8A47AACEEBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,16 +143,6 @@
 			path = SpeedMeterUITests;
 			sourceTree = "<group>";
 		};
-		ED78B6B88827A8A47AACEEBA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E13D91EC44B64C052AE71D45 /* Pods_SpeedMeter.framework */,
-				1526CA33F982907D7F67D924 /* Pods_SpeedMeter_SpeedMeterUITests.framework */,
-				8087DE846D5801B3F68CE33D /* Pods_SpeedMeterTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,7 +150,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD423BD2D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeter" */;
 			buildPhases = (
-				24F06DD2044F3AB3A76A172A /* [CP] Check Pods Manifest.lock */,
 				CAD423932D552BAE008BCB3B /* Sources */,
 				CAD423942D552BAE008BCB3B /* Frameworks */,
 				CAD423952D552BAE008BCB3B /* Resources */,
@@ -191,6 +159,9 @@
 			dependencies = (
 			);
 			name = SpeedMeter;
+			packageProductDependencies = (
+				CAD423C92D55322D008BCB3B /* AWSAPIGateway */,
+			);
 			productName = SpeedMeter;
 			productReference = CAD423972D552BAE008BCB3B /* SpeedMeter.app */;
 			productType = "com.apple.product-type.application";
@@ -199,11 +170,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD423C02D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeterTests" */;
 			buildPhases = (
-				FE48451D6A7486CB278CDC36 /* [CP] Check Pods Manifest.lock */,
 				CAD423A52D552BB0008BCB3B /* Sources */,
 				CAD423A62D552BB0008BCB3B /* Frameworks */,
 				CAD423A72D552BB0008BCB3B /* Resources */,
-				7ECC12C406562DD6CC3DF08C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +188,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAD423C32D552BB0008BCB3B /* Build configuration list for PBXNativeTarget "SpeedMeterUITests" */;
 			buildPhases = (
-				1CDC4BB23BD29E46EC7C520B /* [CP] Check Pods Manifest.lock */,
 				CAD423AF2D552BB0008BCB3B /* Sources */,
 				CAD423B02D552BB0008BCB3B /* Frameworks */,
 				CAD423B12D552BB0008BCB3B /* Resources */,
@@ -266,6 +234,9 @@
 				Base,
 			);
 			mainGroup = CAD4238E2D552BAE008BCB3B;
+			packageReferences = (
+				CAD423C82D55322D008BCB3B /* XCRemoteSwiftPackageReference "aws-sdk-swift" */,
+			);
 			productRefGroup = CAD423982D552BAE008BCB3B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -302,92 +273,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		1CDC4BB23BD29E46EC7C520B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SpeedMeter-SpeedMeterUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		24F06DD2044F3AB3A76A172A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SpeedMeter-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7ECC12C406562DD6CC3DF08C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeedMeterTests/Pods-SpeedMeterTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE48451D6A7486CB278CDC36 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SpeedMeterTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CAD423932D552BAE008BCB3B /* Sources */ = {
@@ -555,7 +440,6 @@
 		};
 		CAD423BE2D552BB0008BCB3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17B9EC2DF83A8E03AE031001 /* Pods-SpeedMeter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -585,7 +469,6 @@
 		};
 		CAD423BF2D552BB0008BCB3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC88A86E61C99C3223A26ECE /* Pods-SpeedMeter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -615,7 +498,6 @@
 		};
 		CAD423C12D552BB0008BCB3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C99F2CEA013D2C6504EFF8E /* Pods-SpeedMeterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -636,7 +518,6 @@
 		};
 		CAD423C22D552BB0008BCB3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62BAD5A66F4EF54F669A21DF /* Pods-SpeedMeterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -657,7 +538,6 @@
 		};
 		CAD423C42D552BB0008BCB3B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 660437C47580D294A7CF10E6 /* Pods-SpeedMeter-SpeedMeterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -676,7 +556,6 @@
 		};
 		CAD423C52D552BB0008BCB3B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FA9A43CB60A1D30BA9911ED /* Pods-SpeedMeter-SpeedMeterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -733,6 +612,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CAD423C82D55322D008BCB3B /* XCRemoteSwiftPackageReference "aws-sdk-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/awslabs/aws-sdk-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.12;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CAD423C92D55322D008BCB3B /* AWSAPIGateway */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAD423C82D55322D008BCB3B /* XCRemoteSwiftPackageReference "aws-sdk-swift" */;
+			productName = AWSAPIGateway;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CAD4238F2D552BAE008BCB3B /* Project object */;
 }

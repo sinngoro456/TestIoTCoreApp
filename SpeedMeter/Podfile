@@ -12,6 +12,8 @@ target 'SpeedMeter' do
     # Pods for testing
 	pod 'AWSAPIGateway', '~> 2.4.7'
   	pod 'AWSDynamoDB'
+	pod 'AWSMobileClient'
+    	pod 'AWSPinpoint'
   end
 
   target 'SpeedMeterUITests' do
