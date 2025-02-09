@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document
+    type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB"
+    version="3.0"
+    toolsVersion="14313.18"
+    targetRuntime="iOS.CocoaTouch"
+    propertyAccessControl="none"
+    useAutolayout="YES"
+    useTraitCollections="YES"
+    useSafeAreas="YES"
+    colorMatched="YES"
+    initialViewController="Sbj-My-Sub">
+
+    <device id="retina4_7" orientation="portrait"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+
+    <scenes>
+        <!-- My Subscription Scene -->
+        <scene sceneID="XYZ-abc-123">
+            <objects>
+                <viewController
+                    storyboardIdentifier="MySubscriptionViewController"
+                    useStoryboardIdentifierAsRestorationIdentifier="YES"
+                    customClass="MySubscriptionViewController"
+                    customModule="EventsApp"
+                    customModuleProvider="target"
+                    id="Sbj-My-Sub"
+                    sceneMemberID="viewController">
+
+                    <!-- ここで Is Initial View Controller にチェックすると
+                         initialViewController="Sbj-My-Sub" に指定される -->
+
+                    <view key="view" contentMode="scaleToFill" id="My-View-123">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+
+                            <!-- latitudeLabel -->
+                            <label
+                                opaque="NO"
+                                contentMode="left"
+                                text="latitude"
+                                lineBreakMode="tailTruncation"
+                                baselineAdjustment="alignBaselines"
+                                translatesAutoresizingMaskIntoConstraints="NO"
+                                id="lbl-latitude">
+                                <rect key="frame" x="20" y="100" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            </label>
+
+                            <!-- longitudeLabel -->
+                            <label
+                                opaque="NO"
+                                contentMode="left"
+                                text="longitude"
+                                lineBreakMode="tailTruncation"
+                                baselineAdjustment="alignBaselines"
+                                translatesAutoresizingMaskIntoConstraints="NO"
+                                id="lbl-longitude">
+                                <rect key="frame" x="20" y="150" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            </label>
+
+                            <!-- velocityLabel -->
+                            <label
+                                opaque="NO"
+                                contentMode="left"
+                                text="velocity"
+                                lineBreakMode="tailTruncation"
+                                baselineAdjustment="alignBaselines"
+                                translatesAutoresizingMaskIntoConstraints="NO"
+                                id="lbl-velocity">
+                                <rect key="frame" x="20" y="200" width="300" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            </label>
+
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="safe-area-123"/>
+                    </view>
+                    <connections>
+                        <!-- ラベルをIBOutletに紐づけ -->
+                        <outlet property="latitudeLabel" destination="lbl-latitude" id="C0-lat-123"/>
+                        <outlet property="longitudeLabel" destination="lbl-longitude" id="C0-lon-123"/>
+                        <outlet property="velocityLabel" destination="lbl-velocity" id="C0-vel-123"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="first-123" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
