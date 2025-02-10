@@ -15,7 +15,6 @@
 		CAE0DE802D5874AB00895E97 /* EventsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0DE7F2D5874AB00895E97 /* EventsApp.swift */; };
 		CAE0DE822D58754500895E97 /* SubscriptionViewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0DE812D58754500895E97 /* SubscriptionViewmodel.swift */; };
 		CAE0DE842D58756500895E97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0DE832D58756500895E97 /* ContentView.swift */; };
-		CAE0DE8A2D5875E800895E97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE0DE872D5875E800895E97 /* LaunchScreen.storyboard */; };
 		CAE0DE8E2D58789300895E97 /* AppSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0DE8D2D58789300895E97 /* AppSyncManager.swift */; };
 		CAE0DE902D587B6700895E97 /* ObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE0DE8F2D587B6700895E97 /* ObservableObject.swift */; };
 		F60B72A3DBBCB5EE5348BAE8 /* Pods_EventsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49640E01CB7D0D9B4BABF41A /* Pods_EventsApp.framework */; };
@@ -48,7 +47,6 @@
 		CAE0DE7F2D5874AB00895E97 /* EventsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsApp.swift; sourceTree = "<group>"; };
 		CAE0DE812D58754500895E97 /* SubscriptionViewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewmodel.swift; sourceTree = "<group>"; };
 		CAE0DE832D58756500895E97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CAE0DE882D5875E800895E97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../testSpeedMeter/EventsApp/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAE0DE8D2D58789300895E97 /* AppSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSyncManager.swift; sourceTree = "<group>"; };
 		CAE0DE8F2D587B6700895E97 /* ObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObject.swift; sourceTree = "<group>"; };
 		CC70F242478FEFDE57B38FAC /* Pods-EventsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventsApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventsApp/Pods-EventsApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				CAE0DE832D58756500895E97 /* ContentView.swift */,
 				CAE0DE772D58550100895E97 /* MySubscription.swift */,
 				CAE0DE812D58754500895E97 /* SubscriptionViewmodel.swift */,
-				CAE0DE872D5875E800895E97 /* LaunchScreen.storyboard */,
 				FA89F9F922A9CA260037110D /* Resources */,
 			);
 			path = EventsApp;
@@ -197,7 +194,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE0DE8A2D5875E800895E97 /* LaunchScreen.storyboard in Resources */,
 				FA6C86CE235764C70023397A /* awsconfiguration.json in Resources */,
 				17CBF39D1FB4B2E00015BC6A /* Assets.xcassets in Resources */,
 			);
@@ -327,17 +323,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		CAE0DE872D5875E800895E97 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CAE0DE882D5875E800895E97 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		17CBF3A21FB4B2E00015BC6A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -391,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -447,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
